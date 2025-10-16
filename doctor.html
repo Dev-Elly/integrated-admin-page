@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin - Doctors</title>
+  <link rel="stylesheet" href="styles/doctor.css">
+</head>
+<body>
+
+  <div class="sidebar">
+    <h2>HealthConnect</h2>
+    <ul>
+      <li><a href="admin.html">Dashboard</a></li>
+      <li class="active"><a href="doctor.html"></a>Doctors</li>
+      <li><a href="admin-in-patient.html">Patients</a></li>
+      <li><a href="reports.html"></a>Reports</li>
+      <li><a href="admin-settings.html"></a>Settings</li>
+      <li><a href="login.html" class="logout">Logout</a></li>
+    </ul>
+  </div>
+
+  <div class="main-content">
+    <header>
+      <h1>Doctors Management</h1>
+    </header>
+
+    <section class="table-section">
+      <button class="add-btn">+ Add Doctor</button>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Specialization</th>
+            <th>Phone</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>#D001</td>
+            <td>Dr. John Smith</td>
+            <td>Cardiologist</td>
+            <td>+254 712 345678</td>
+            <td><span class="status success">Active</span></td>
+          </tr>
+          <tr>
+            <td>#D002</td>
+            <td>Dr. Mary Wanjiku</td>
+            <td>Pediatrician</td>
+            <td>+254 798 654321</td>
+            <td><span class="status pending">On Leave</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </div>
+
+</body>
+</html>

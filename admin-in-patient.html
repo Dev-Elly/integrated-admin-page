@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin - Patients</title>
+  <link rel="stylesheet" href="styles/admin-in-patient.css">
+</head>
+<body>
+
+  <div class="sidebar">
+    <h2>HealthConnect</h2>
+    <ul>
+      <li><a href="admin.html">Dashboard</a></li>
+      <li><a href="doctor.html">Doctors</a></li>
+      <li class="active"><a href="admin-in-patient.html">Patients</a></li>
+      <li><a href="report.html">Reports</a></li>
+      <li><a href="settings.html">Settings</a></li>
+      <li><a href="login.html" class="logout">Logout</a></li>
+    </ul>
+  </div>
+
+  <div class="main-content">
+    <header>
+      <h1>Patients Management</h1>
+    </header>
+
+    <section class="table-section">
+      <button class="add-btn">+ Add Patient</button>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Doctor Assigned</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>#P001</td>
+            <td>Jane Doe</td>
+            <td>28</td>
+            <td>Dr. John Smith</td>
+            <td><span class="status success">Active</span></td>
+          </tr>
+          <tr>
+            <td>#P002</td>
+            <td>Brian Omondi</td>
+            <td>42</td>
+            <td>Dr. Mary Wanjiku</td>
+            <td><span class="status pending">Discharged</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </div>
+
+</body>
+</html>

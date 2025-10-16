@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin - Settings</title>
+  <link rel="stylesheet" href="styles/settings.css">
+</head>
+<body>
+
+  <div class="sidebar">
+    <h2>HealthConnect</h2>
+    <ul>
+      <li><a href="admin.html">Dashboard</a></li>
+      <li><a href="doctor.html">Doctors</a></li>
+      <li><a href="admin-in-patient.html">Patients</a></li>
+      <li><a href="report.html">Reports</a></li>
+      <li class="active"><a href="settings.html">Settings</a></li>
+      <li><a href="login.html" class="logout">Logout</a></li>
+  </div>
+
+  <div class="main-content">
+    <header>
+      <h1>System Settings</h1>
+    </header>
+
+    <section class="settings-section">
+      <form class="settings-form">
+        <label>Hospital Name:</label>
+        <input type="text" placeholder="HealthConnect General Hospital">
+
+        <label>Admin Email:</label>
+        <input type="email" placeholder="admin@healthconnect.com">
+
+        <label>Change Password:</label>
+        <input type="password" placeholder="Enter new password">
+
+        <button type="submit">Save Changes</button>
+      </form>
+    </section>
+  </div>
+
+</body>
+</html>
